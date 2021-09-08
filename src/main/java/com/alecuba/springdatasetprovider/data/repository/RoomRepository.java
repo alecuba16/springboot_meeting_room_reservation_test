@@ -1,0 +1,9 @@
+package com.alecuba.springdatasetprovider.data.repository;
+
+import com.alecuba.springdatasetprovider.data.entity.Room;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface RoomRepository extends CrudRepository<Room,Long> {
+}
